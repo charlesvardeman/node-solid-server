@@ -10,4 +10,4 @@ RUN openssl req \
     -subj "/C=US/ST=Denial/L=Springfield/O=Dis/CN=www.example.com" \
     -keyout cert.key \
     -out cert.pem
-CMD npm run solid start
+CMD npm run solid start --no-webid
